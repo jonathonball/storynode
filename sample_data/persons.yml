@@ -1,0 +1,12 @@
+---
+persons:
+  - id: 1
+    first: Jonathon
+    last: Ball
+    email: jonathon.ball@gmail.com
+    display: Jon Ball
+  - id: 2
+    first: Stefanie
+    last: Ball
+    email: flystef84@gmail.com
+    display: flystef

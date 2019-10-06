@@ -1,0 +1,10 @@
+---
+choice:
+  string: summary
+    optional: true
+  string: text
+  model: segment
+    name: parent
+  model: segment
+    name: child
+    optional: true

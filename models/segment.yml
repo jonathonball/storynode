@@ -1,0 +1,5 @@
+---
+segment:
+  string: text
+  model: story
+  model: author

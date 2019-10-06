@@ -1,0 +1,5 @@
+---
+reader:
+  model: person
+  boolean: private
+    default: true

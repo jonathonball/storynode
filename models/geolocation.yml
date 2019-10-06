@@ -1,0 +1,9 @@
+---
+geolocation:
+  string: display
+  string: lat
+    cast: float
+    optional: true
+  string: long
+    case: float
+    optional: true

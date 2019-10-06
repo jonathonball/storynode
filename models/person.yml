@@ -1,0 +1,8 @@
+---
+person:
+  string: first
+  string: last
+  string: email
+  string: display
+  model: geolocation
+    optional: true

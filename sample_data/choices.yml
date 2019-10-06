@@ -1,0 +1,10 @@
+---
+choices:
+  - summary: Cower
+    text: Lie still and do nothing.
+    parent: 1
+    child: 1
+  - summary: Explore
+    text: Be brave and get out of bed.
+    parent: 1
+    child: 2
