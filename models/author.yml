@@ -1,5 +1,7 @@
 ---
 author:
-  model: person
-  boolean: private
+  model:
+    name: person
+  boolean:
+    name: private
     default: true

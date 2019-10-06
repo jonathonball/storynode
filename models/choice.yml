@@ -1,10 +1,14 @@
 ---
 choice:
-  string: summary
+  string:
+    name: summary
     optional: true
-  string: text
-  model: segment
-    name: parent
-  model: segment
-    name: child
+  string:
+    name: text
+  model:
+    name: segment
+    local: parent
+  model:
+    name: segment
+    local: child
     optional: true
