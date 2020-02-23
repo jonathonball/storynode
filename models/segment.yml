@@ -1,8 +1,8 @@
 ---
 segment:
-  string:
-    name: text
-  model:
-    name: story
-  model:
-    name: author
+  text:
+    type: string
+  story:
+    type: model
+  author:
+    type: model

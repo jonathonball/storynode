@@ -1,12 +1,10 @@
 ---
 geolocation:
-  string:
-    name: display
-  string:
-    name: lat
-    cast: float
-    optional: true
-  string:
-    name: long
-    case: float
-    optional: true
+  display:
+    type: string
+  lat:
+    type: float
+    optional: True
+  long:
+    type: float
+    optional: True

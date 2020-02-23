@@ -1,7 +1,7 @@
 ---
 reader:
-  model:
-    name: person
-  boolean:
-    name: private
-    default: true
+  person:
+    type: model
+  private:
+    type: boolean
+    default: True

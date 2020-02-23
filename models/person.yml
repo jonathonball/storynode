@@ -1,13 +1,15 @@
 ---
 person:
-  string:
-    name: first
-  string:
-    name: last
-  string:
-    name: email
-  string:
-    name: display
-  model:
-    name: geolocation
+  first:
+    type: string
+  last:
+    type: string
+  email:
+    type: string
+  display:
+    type: display
+  some_seed:
+    optional: True
+  geolocation:
+    type: model
     optional: True
