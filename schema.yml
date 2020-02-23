@@ -22,6 +22,7 @@ schema:
     hash:         # A hash value
     integer:      # If not int, attempt cast to int
     list:         # A list of values, must be initialized with key type
+    boolean:      # A True/False
     map:          # A key/value map, must be initialized with key type
     model:        # Reference to another model
       name:         # Which model?
