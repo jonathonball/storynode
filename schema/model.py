@@ -1,4 +1,5 @@
 from .loader.yaml import YamlLoader
+from .loader.json import JsonLoader
 
 class Model:
 
@@ -12,6 +13,6 @@ class Model:
         if (loader == 'yaml'):
             self.loader = YamlLoader()
         elif (loader == 'json'):
-            raise NotImplementedError('json not yet implemented')
+            self.loader = JsonLoader()
         else:
             raise TypeError('Unknown loader type: ' + loader)

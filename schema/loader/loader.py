@@ -4,4 +4,4 @@ class Loader(ABC):
 
     @abstractmethod
     def load(self, name):
-        return pass
+        pass
